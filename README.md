@@ -18,7 +18,7 @@ mostra uma mensagem de erro, caso a idade digitada seja menor do que 0 ou maior 
 Também apresenta mensagem de erro caso o usuário digite algum caracter que não seja um número inteiro. Quando nome e idade são inseridos
 corretamente, o programa mostra uma mensagem de sucesso.
 
-Caso o usuário escolha as opções 2 ou 3 antes de ter cadastrado uma pessoa, o programa exibe mensagem de erro.
+Caso o usuário escolha as opções 2 ou 3 antes de ter cadastrado uma pessoa, o programa exibe mensagem de erro, já que a lista está vazia.
 
 As listas de pessoas contêm nome, idade e tipo.
 

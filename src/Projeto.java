@@ -89,29 +89,29 @@ public class Projeto {
 		} while (true);        
 	}
 
-public static void listaVazia() {
-	if (listaDePessoas.size() == 0) {
-		System.out.println("\"\\n>>> erro! não tem nenhuma pessoa cadastrada!<<< \\n\"");
-	}
-}
-
-public static void ordenarIdade() {
-    Comparator<Pessoa> compIdade = new Comparator<Pessoa>() {
-		@Override
-		public int compare(Pessoa o1, Pessoa o2) {
-			return (o1.getIdade() - o2.getIdade());
+	public static void listaVazia() {
+		if (listaDePessoas.size() == 0) {
+			System.out.println("\"\\n>>> erro! não tem nenhuma pessoa cadastrada!<<< \\n\"");
 		}
-    };	
-    listaDePessoas.sort(compIdade);	
-}
+	}
 
-public static void ordenarNome() {
-    Comparator<Pessoa> compNome = new Comparator<Pessoa>() {
-		@Override
-		public int compare(Pessoa o1, Pessoa o2) {
-			return o1.getNome().compareTo(o2.getNome());
-		}                                      	
-    };
-    listaDePessoas.sort(compNome);	
-}
+	public static void ordenarIdade() {
+    		Comparator<Pessoa> compIdade = new Comparator<Pessoa>() {
+			@Override
+			public int compare(Pessoa o1, Pessoa o2) {
+				return (o1.getIdade() - o2.getIdade());
+			}
+    		};	
+    		listaDePessoas.sort(compIdade);	
+	}
+
+	public static void ordenarNome() {
+    		Comparator<Pessoa> compNome = new Comparator<Pessoa>() {
+			@Override
+			public int compare(Pessoa o1, Pessoa o2) {
+				return o1.getNome().compareTo(o2.getNome());
+			}                                      	
+    		};
+    		listaDePessoas.sort(compNome);	
+	}
 }

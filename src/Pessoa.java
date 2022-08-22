@@ -23,15 +23,15 @@ public class Pessoa {
 		}
 	
 	public void verificarTipo() {
-        if (idade >= 0 && idade <= 12) {
-        	this.tipo = "Criança";
-        } else if (idade > 12 && idade <= 19) {
-        	this.tipo = "Adolescente";
-        } else if (idade >= 20 && idade <= 65) {
-        	this.tipo = "Adulto";
-        } else if (idade > 65) {
-        	this.tipo = "Idoso";
-        }
+        	if (idade >= 0 && idade <= 12) {
+        		this.tipo = "CrianÃ§a";
+        	} else if (idade > 12 && idade <= 19) {
+        		this.tipo = "Adolescente";
+        	} else if (idade >= 20 && idade <= 65) {
+        		this.tipo = "Adulto";
+        	} else if (idade > 65) {
+        		this.tipo = "Idoso";
+        	}
 	}
 		
 	@Override

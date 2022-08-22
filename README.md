@@ -1,12 +1,12 @@
 # devsCool
 Case técnico para o programa de estágio da eCore - Dev's Cool/2022
-Projeto escrito em Java, no Eclipse. 
+- Projeto escrito em Java, no Eclipse. 
 
 Inicialmente, o usuário irá interagir com um menu simples, nele existem as opções de:
-1. cadastrar uma pessoa (adicionando nome e idade), 
-2. listá-las por ordem crescente de idade, 
-3. listá-las por ordem alfabética e 
-0. de finalizar o programa.
+- opção 1. cadastrar uma pessoa (adicionando nome e idade), 
+- opção 2. listá-las por ordem crescente de idade, 
+- opção 3. listá-las por ordem alfabética e 
+- opção 0. de finalizar o programa.
 
 O usuário digita a opção que quer seguir - o programa só aceita opções numéricas, caso contrário, exibe mensagem de erro.
 

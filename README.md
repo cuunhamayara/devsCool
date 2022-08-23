@@ -12,6 +12,7 @@ O usuário digita a opção que quer seguir - o programa só aceita opções num
 
 "Pessoa" é a classe com as características deste objeto - aqui, de acordo com a idade, o programa verifica se esta é uma criança,
 adolescente, adulto ou idoso - no método "verificar tipo", que já é chamado no próprio construtor.
+* critérios do tipo: 0 a 12 anos => Criança, 12 até 19 anos => Adolescente, 20 até 65 => Adulto, 65 ou mais => Idoso.
 
 "Projeto" é a classe main, onde a aplicação irá rodar. Para cadastrar uma pessoa, o usuário digita o nome e depois idade. O programa
 mostra uma mensagem de erro, caso a idade digitada seja menor do que 0 ou maior do que 120. E pede novamente para que o usuário insira uma idade válida.

@@ -20,7 +20,7 @@ public class Pessoa {
 		this.nome = nome;
 		this.idade = idade;
 		verificarTipo();
-		}
+	}
 	
 	public void verificarTipo() {
         	if (idade >= 0 && idade <= 12) {
